@@ -23,16 +23,17 @@ Development Installation
 	| ``(publix-tendies-sdk)$ pipenv install --dev``
 
 Documentation: Sphinx
-	This repo uses Sphinx_ to generate documentation
-	The Makefile script contains a number of commands which make life easier for the Sphinx user. To build and serve HTML-compatible documentation, run
+	This repo uses Sphinx_ to generate documentation. The Makefile script contains a number of commands which make life easier for the Sphinx user.
+
+	To build and serve HTML-compatible documentation, run:
 
 	| ``(publix-tendies-sdk)$ make clean``
 	| ``(publix-tendies-sdk)$ make html``
 	| ``(publix-tendies-sdk)$ python -m http.server``
 
-    From there, documentation will be served at: ``localhost:8000/_build/html``  
+	From there, documentation will be served at: ``localhost:8000/_build/html``
 
-    *Note:* Make sure to ``make clean`` Sphinx directories before committing code.
+	*Note:* Make sure to ``make clean`` Sphinx directories before committing code.
 
 Testing
 -------
