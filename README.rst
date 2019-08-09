@@ -30,8 +30,9 @@ Documentation: Sphinx
 	| ``(publix-tendies-sdk)$ make html``
 	| ``(publix-tendies-sdk)$ python -m http.server``
 
-	From there, documentation will be served at: ``localhost:8000/_build/html``
-	Note: Make sure to ``make clean`` Sphinx directories before committing code.
+    From there, documentation will be served at: ``localhost:8000/_build/html``  
+
+    *Note:* Make sure to ``make clean`` Sphinx directories before committing code.
 
 Testing
 -------
