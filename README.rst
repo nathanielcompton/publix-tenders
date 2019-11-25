@@ -8,10 +8,10 @@ Publix Tendies
 
 Overview
 -----------------
-	
+
 An installable Python package to determine if Publix brand chicken tender submarine sandwiches are on sale.
 
-Getting Started
+Quickstart
 ---------------
 
 Development Installation
@@ -20,16 +20,20 @@ Development Installation
 	| ``$ git clone {repo_url}``
 	| ``$ cd publix-tendies``
 	| ``$ python3 -m venv venv``
-	| ``(publix-tendies)$ pip install -r requirements.txt``
+	| ``$ source venv/bin/active``
+	| ``(venv)$ pip install -r requirements.txt``
+	| ``(venv)$ python src/main.py``
+
+	From here, set environment variables as appropriate from `settings.py`
 
 Documentation: Sphinx (TODO)
 	This repo uses Sphinx_ to generate documentation. The Makefile script contains a number of commands which make life easier for the Sphinx user.
 
 	To build and serve HTML-compatible documentation, run:
 
-	| ``(publix-tendies)$ make clean``
-	| ``(publix-tendies)$ make html``
-	| ``(publix-tendies)$ python -m http.server``
+	| ``(venv)$ make clean``
+	| ``(venv)$ make html``
+	| ``(venv)$ python -m http.server``
 
 	From there, documentation will be served at: ``localhost:8000/_build/html``
 
