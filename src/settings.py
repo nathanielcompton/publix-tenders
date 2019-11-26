@@ -1,4 +1,11 @@
 import os
 
-TENDIES_URL = os.getenv("TENDIES_URL", "http://arepublixchickentendersubsonsale.com/")
-ONSALE_STRING = "onsale:yes"
+TENDERS_SALE_URL = os.getenv(
+    "TENDERS_SALE_URL", "http://arepublixchickentendersubsonsale.com/"
+)
+ONSALE_STRING = os.getenv(
+    "ONSALE_STRING", "onsale:yes"
+)
+
+ONSALE_YES = "Oh yeah they are!"
+ONSALE_NO = "Sorry, not today!"
