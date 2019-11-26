@@ -25,7 +25,6 @@ Development Installation
 	| ``(venv)$ pip install -r requirements.txt``
 	| ``(venv)$ python src/main.py``
 
-
 	From here, set environment variables as appropriate from `settings.py`
 
 Documentation: Sphinx (TODO)
