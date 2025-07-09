@@ -19,7 +19,7 @@ pytest==5.0.1
 pytest-cache==1.0
 pytest-cov==2.7.1
 pytest-pep8==1.0.6
-requests==2.22.0
+requests==2.32.4
 six==1.12.0
 soupsieve==1.9.2
 urllib3==1.26.5
