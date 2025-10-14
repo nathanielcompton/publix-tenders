@@ -7,7 +7,7 @@ certifi==2022.12.7
 chardet==3.0.4
 coverage==4.5.4
 execnet==1.7.0
-idna==2.8
+idna==3.7
 importlib-metadata==0.19
 more-itertools==7.2.0
 packaging==19.1
